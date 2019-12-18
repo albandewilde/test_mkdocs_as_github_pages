@@ -1,0 +1,14 @@
+site_name: super pages
+theme: readthedocs
+
+nav:
+    - Home: index.md
+    - Things: things.md
+
+markdown_extensions:
+    - toc:
+        separator: "_"
+        permalink: True
+
+repo_url: https://github.com/albandewilde/test_mkdocs_as_github_pages
+strict: True
